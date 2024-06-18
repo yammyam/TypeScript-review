@@ -10,13 +10,13 @@ function func2(): void {
 let a: void;
 a = undefined;
 // 오직 언디파인만 담을 수 있음
-//nullchecks 옵션을 끄면 null 까지는 들어갈 수 있음
+// nullchecks 옵션을 끄면 null 까지는 들어갈 수 있음
 
 const func3 = (): undefined => {
   return undefined;
   //return; 똑같이 undefined를 반환하는 코드.
 };
-//실제로 언디파인드를 반환해야지 오류가 사라짐,null도 마찬가지
+//실제로 언디파인드를 반환해야지 오류가 사라짐, null도 마찬가지
 
 // never타입
 // 존재하지않는 불가능한 타입
