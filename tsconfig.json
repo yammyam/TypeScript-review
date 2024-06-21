@@ -1,5 +1,5 @@
 {
-  "include": ["section1", "section2"],
+  "include": ["section1", "section2", "section3"],
   "compilerOptions": {
     "strict": true,
     "target": "ESNext",
