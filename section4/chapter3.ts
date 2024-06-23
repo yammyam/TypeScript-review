@@ -16,7 +16,6 @@ interface Lib {
   a: number;
   b: number;
 }
-
 interface Lib {
   c: string;
 }
